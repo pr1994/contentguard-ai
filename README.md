@@ -1,5 +1,5 @@
 
-```markdown
+
 # 🛡️ ContentGuard AI: Enterprise Agentic Document Compliance
 
 ![Python](https://img.shields.io/badge/Python-3.11%2F3.12-blue)
@@ -10,7 +10,6 @@
 
 **ContentGuard AI** is an enterprise-grade microservice designed to automate legal document compliance, risk analysis, and metadata extraction. Built as an AI "sidecar" for Enterprise Content Management (ECM) systems like Oracle WebCenter, it leverages a **Multi-Agent RAG (Retrieval-Augmented Generation) pipeline** to ensure documents adhere to internal company policies before they are finalized.
 
----
 
 ## 🏗️ System Architecture
 
@@ -141,9 +140,3 @@ python run_eval.py
 This project is licensed under the MIT License.  
 Built by **Pritam Biswas** as an Enterprise AI Portfolio Piece.
 ```
-
----
-
-This is the **full file** — you can save it as `README.md` and it’s ready to showcase on GitHub.  
-
-Would you like me to also add a **downloadable link** version (so you can grab the `.md` file directly), or do you prefer to copy-paste this into your repo manually?
