@@ -1,4 +1,3 @@
-Here’s the **complete Markdown file** you can copy straight into your repo or save locally as `README.md`.  
 
 ```markdown
 # 🛡️ ContentGuard AI: Enterprise Agentic Document Compliance
