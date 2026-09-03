@@ -1,0 +1,23 @@
+[
+  {
+    "doc_id": "DOC-001",
+    "question": "Is this contract compliant with company policies regarding liability?",
+    "document_content": "This is a mock contract. The liability clause is missing. The expiration date is 2026-12-31.",
+    "ground_truth_context": ["All contracts must have a clear Liability Clause defining financial responsibility."],
+    "ground_truth_answer": "Non-compliant. The contract is missing a Liability Clause."
+  },
+  {
+    "doc_id": "DOC-002",
+    "question": "Are the payment terms in this document compliant?",
+    "document_content": "Vendor agreement. Payment terms are Net-90. The contract expires in 12 months.",
+    "ground_truth_context": ["Payment terms must be Net-30 or Net-60. Net-90 is strictly prohibited."],
+    "ground_truth_answer": "Non-compliant. The payment terms are Net-90, which is strictly prohibited."
+  },
+  {
+    "doc_id": "DOC-003",
+    "question": "Does this software contract meet IT security requirements?",
+    "document_content": "Software vendor agreement. Includes 99.9% SLA and annual SOC2 audit requirement.",
+    "ground_truth_context": ["All software vendor contracts must include an SLA of 99.9% uptime.", "Vendors must undergo an annual SOC2 security audit."],
+    "ground_truth_answer": "Compliant. The contract includes both the 99.9% SLA and the SOC2 audit requirement."
+  }
+]
